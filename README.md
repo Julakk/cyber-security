@@ -9,8 +9,9 @@ Kumpulan demo, tools, dan catatan belajar seputar cybersecurity — fokus di web
 | Folder | Isi |
 |---|---|
 | [`web-security/`](./web-security) | Demo kerentanan web (SQLi, XSS, CSRF, broken auth) lengkap dengan versi vulnerable & fixed |
-| [`network-security/`](./network-security) | Tools scanning & analisis jaringan (port scanner, packet sniffer) |
+| [`network-security/`](./network-security) | Port scanner, service/subdomain enumeration |
 | [`tools/`](./tools) | Tools security umum (password cracker edukasi, vuln scanner sederhana) |
+| [`malware-analysis/`](./malware-analysis) | Konsep static analysis (hashing, entropy, string extraction) |
 | [`ctf-writeups/`](./ctf-writeups) | Dokumentasi penyelesaian CTF / lab hacking |
 | [`notes/`](./notes) | Catatan belajar (OWASP Top 10, learning log) |
 
@@ -18,9 +19,9 @@ Kumpulan demo, tools, dan catatan belajar seputar cybersecurity — fokus di web
 
 - [x] Dasar web vulnerabilities (SQLi, XSS, CSRF)
 - [x] Broken authentication & session management
-- [ ] Network scanning & enumeration
-- [ ] CTF pertama (TryHackMe / HackTheBox)
-- [ ] Malware analysis dasar
+- [x] Network scanning & enumeration
+- [x] CTF pertama (self-hosted mini CTF)
+- [x] Malware analysis dasar
 - [ ] Sertifikasi (misal: eJPT, CEH, atau OSCP jangka panjang)
 
 ## 🛠️ Tech yang dipakai

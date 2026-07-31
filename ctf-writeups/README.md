@@ -10,8 +10,9 @@ Lihat [`example-writeup/`](./example-writeup) untuk format yang dipakai tiap wri
 
 | Platform | Challenge/Room | Kategori | Status |
 |---|---|---|---|
+| Self-hosted | [Mini CTF: Login Bypass](./mini-ctf-web-auth-bypass) | Web (SQLi) | ✅ Selesai |
 | Contoh | Example Writeup | Web | ✅ Template |
-| _(isi setelah selesai CTF pertama)_ | | | |
+| _(isi setelah selesai CTF di platform beneran, misal TryHackMe)_ | | | |
 
 ## 🎯 Cara Nambah Writeup Baru
 
