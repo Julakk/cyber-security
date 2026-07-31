@@ -13,7 +13,7 @@ Kumpulan demo, tools, dan catatan belajar seputar cybersecurity — fokus di web
 | [`tools/`](./tools) | Tools security umum (password cracker edukasi, vuln scanner sederhana) |
 | [`malware-analysis/`](./malware-analysis) | Konsep static analysis (hashing, entropy, string extraction) |
 | [`ctf-writeups/`](./ctf-writeups) | Dokumentasi penyelesaian CTF / lab hacking |
-| [`notes/`](./notes) | Catatan belajar (OWASP Top 10, learning log) |
+| [`notes/`](./notes) | Catatan belajar (OWASP Top 10, learning log, roadmap sertifikasi) |
 
 ## 🎯 Roadmap Belajar
 
@@ -22,7 +22,7 @@ Kumpulan demo, tools, dan catatan belajar seputar cybersecurity — fokus di web
 - [x] Network scanning & enumeration
 - [x] CTF pertama (self-hosted mini CTF)
 - [x] Malware analysis dasar
-- [ ] Sertifikasi (misal: eJPT, CEH, atau OSCP jangka panjang)
+- [ ] Sertifikasi — lihat rencana lengkap di [`notes/certification-roadmap.md`](./notes/certification-roadmap.md) (target: eJPT dulu, lalu OSCP jangka panjang)
 
 ## 🛠️ Tech yang dipakai
 
