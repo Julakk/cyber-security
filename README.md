@@ -1,13 +1,5 @@
 # Cyber Security Portfolio
 
-![License](https://img.shields.io/badge/License-MIT-green)
-
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-
-![Node.js](https://img.shields.io/badge/Node.js-20-green)
-
-![Cyber Security](https://img.shields.io/badge/Cyber-Security-red)
-
 Kumpulan demo, tools, dan catatan belajar seputar cybersecurity — fokus di web security, network security, dan defensive tooling. Semua demo dibuat untuk tujuan edukasi dan dijalankan di environment lokal/sandbox sendiri.
 
 > ⚠️ **Disclaimer**: Semua kode di repo ini dibuat untuk keperluan belajar dan riset keamanan. Jangan digunakan untuk menyerang sistem yang bukan milik sendiri atau tanpa izin. Penulis tidak bertanggung jawab atas penyalahgunaan.
