@@ -1,33 +1,156 @@
-# Cyber Security Portfolio
+# 🛡️ Cyber Security Portfolio
 
-Kumpulan demo, tools, dan catatan belajar seputar cybersecurity — fokus di web security, network security, dan defensive tooling. Semua demo dibuat untuk tujuan edukasi dan dijalankan di environment lokal/sandbox sendiri.
+> A collection of cybersecurity projects, learning notes, tools, and write-ups created for educational and research purposes.
 
-> ⚠️ **Disclaimer**: Semua kode di repo ini dibuat untuk keperluan belajar dan riset keamanan. Jangan digunakan untuk menyerang sistem yang bukan milik sendiri atau tanpa izin. Penulis tidak bertanggung jawab atas penyalahgunaan.
+![License](https://img.shields.io/badge/License-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Node.js](https://img.shields.io/badge/Node.js-20-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-## 📁 Struktur
+---
 
-| Folder | Isi |
-|---|---|
-| [`web-security/`](./web-security) | Demo kerentanan web (SQLi, XSS, CSRF, broken auth) lengkap dengan versi vulnerable & fixed |
-| [`network-security/`](./network-security) | Port scanner, service/subdomain enumeration |
-| [`tools/`](./tools) | Tools security umum (password cracker edukasi, vuln scanner sederhana) |
-| [`malware-analysis/`](./malware-analysis) | Konsep static analysis (hashing, entropy, string extraction) |
-| [`ctf-writeups/`](./ctf-writeups) | Dokumentasi penyelesaian CTF / lab hacking |
-| [`notes/`](./notes) | Catatan belajar (OWASP Top 10, learning log, roadmap sertifikasi) |
+## 📖 About
 
-## 🎯 Roadmap Belajar
+Repository ini berisi kumpulan project, catatan belajar, demo keamanan, dan tools sederhana yang dibuat untuk meningkatkan pemahaman di bidang Cyber Security.
 
-- [x] Dasar web vulnerabilities (SQLi, XSS, CSRF)
-- [x] Broken authentication & session management
-- [x] Network scanning & enumeration
-- [x] CTF pertama (self-hosted mini CTF)
-- [x] Malware analysis dasar
-- [ ] Sertifikasi — lihat rencana lengkap di [`notes/certification-roadmap.md`](./notes/certification-roadmap.md) (target: eJPT dulu, lalu OSCP jangka panjang)
+Seluruh konten ditujukan **hanya untuk edukasi, penelitian, dan pengujian pada lingkungan yang memiliki izin**.
 
-## 🛠️ Tech yang dipakai
+> ⚠️ **Disclaimer**
+>
+> Jangan gunakan project atau script dalam repository ini untuk aktivitas ilegal.
+> Penulis tidak bertanggung jawab atas penyalahgunaan informasi yang tersedia.
 
-Python, Node.js, Flask/Express (untuk demo vulnerable app), Bash.
+---
 
-## 📬 Kontak
+# 📂 Repository Structure
 
-Punya masukan atau nemu bug di salah satu demo? Buka issue atau PR.
+```
+cyber-security/
+│
+├── 📁 web-security/
+├── 📁 network-security/
+├── 📁 malware-analysis/
+├── 📁 tools/
+├── 📁 ctf-writeups/
+├── 📁 notes/
+│
+├── LICENSE
+└── README.md
+```
+
+---
+
+## 🌐 Web Security
+
+- SQL Injection
+- Cross-Site Scripting (XSS)
+- Cross-Site Request Forgery (CSRF)
+- File Upload
+- Command Injection
+- Authentication
+- Session Management
+
+---
+
+## 🌍 Network Security
+
+- Port Scanner
+- Service Enumeration
+- Banner Grabbing
+- DNS Lookup
+- Subdomain Enumeration
+- Network Reconnaissance
+
+---
+
+## 🦠 Malware Analysis
+
+- Static Analysis
+- File Hashing
+- String Extraction
+- Entropy Analysis
+- YARA Rules
+
+---
+
+## ⚙️ Security Tools
+
+Repository ini juga berisi beberapa tools sederhana seperti:
+
+- Password Generator
+- Hash Generator
+- Port Scanner
+- Banner Grabber
+- Simple Vulnerability Checker
+
+---
+
+## 🏴 CTF Writeups
+
+Berisi dokumentasi penyelesaian challenge CTF seperti:
+
+- Web Exploitation
+- Reverse Engineering
+- Cryptography
+- OSINT
+- Binary Exploitation
+- Forensics
+
+---
+
+## 📚 Learning Notes
+
+Materi belajar yang akan terus diperbarui.
+
+- Linux
+- Networking
+- Python
+- OWASP Top 10
+- Active Directory
+- Malware Analysis
+- Reverse Engineering
+- Digital Forensics
+- Certification Roadmap
+
+---
+
+## 🎯 Learning Roadmap
+
+- [x] Linux Fundamentals
+- [x] Networking Basics
+- [x] Python Programming
+- [x] Web Security Fundamentals
+- [x] OWASP Top 10
+- [x] Network Enumeration
+- [ ] Malware Analysis
+- [ ] Reverse Engineering
+- [ ] Active Directory
+- [ ] Cloud Security
+- [ ] eJPT
+- [ ] PNPT
+- [ ] OSCP
+
+---
+
+## 🛠️ Technologies
+
+- Python
+- JavaScript
+- Node.js
+- Bash
+- Flask
+- Express.js
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ Support
+
+Jika repository ini bermanfaat, jangan lupa berikan ⭐ pada repository ini.
+
+Terima kasih!
