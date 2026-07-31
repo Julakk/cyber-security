@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Vulnerable Comment Box (XSS Demo)</title>
+<style>
+  body { font-family: sans-serif; max-width: 500px; margin: 40px auto; }
+  #comments div { border: 1px solid #ccc; padding: 8px; margin: 6px 0; border-radius: 4px; }
+  textarea { width: 100%; height: 60px; }
+</style>
+</head>
+<body>
+  <h2>⚠️ Comment Box (Vulnerable)</h2>
+  <p>Input di bawah ini di-render <strong>tanpa sanitasi</strong> — coba masukkan
+     <code>&lt;script&gt;alert('XSS')&lt;/script&gt;</code></p>
+
+  <textarea id="commentInput" placeholder="Tulis komentar..."></textarea><br>
+  <button onclick="addComment()">Kirim</button>
+
+  <div id="comments"></div>
+
+  <script>
+    function addComment() {
+      const input = document.getElementById('commentInput').value;
+      const commentsDiv = document.getElementById('comments');
+
+      // ⚠️ VULNERABLE: innerHTML merender input user sebagai HTML/JS mentah
+      commentsDiv.innerHTML += '<div>' + input + '</div>';
+
+      document.getElementById('commentInput').value = '';
+    }
+  </script>
+</body>
+</html>

