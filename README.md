@@ -29,6 +29,9 @@ cyber-security/
 ├── 📁 web-security/
 ├── 📁 network-security/
 ├── 📁 malware-analysis/
+├── 📁 reverse-engineering/
+├── 📁 active-directory/
+├── 📁 cloud-security/
 ├── 📁 tools/
 ├── 📁 ctf-writeups/
 ├── 📁 notes/
@@ -79,6 +82,38 @@ Planned:
 
 ---
 
+## 🔬 Reverse Engineering
+
+Sudah ada:
+- Crackme #01 (C binary, XOR-encoded flag) lengkap dengan writeup solve step-by-step
+- Pengenalan tools: `strings`, `objdump`, `gdb`, `file`
+
+Planned:
+- Crackme lanjutan dengan tingkat kesulitan lebih tinggi
+
+---
+
+## 🏢 Active Directory
+
+Sudah ada:
+- Notes konsep serangan AD: enumeration, Kerberoasting, Pass-the-Hash, Golden Ticket, AS-REP Roasting
+- Prinsip pertahanan & sumber belajar lanjutan
+
+> Catatan: ini murni conceptual notes karena butuh lab Windows domain controller yang di luar scope environment repo ini. Praktik hands-on direkomendasikan lewat TryHackMe/HackTheBox AD labs.
+
+---
+
+## ☁️ Cloud Security
+
+Sudah ada:
+- S3/cloud storage misconfiguration checklist
+- IAM policy auditor (deteksi wildcard action/resource/principal yang overly permissive)
+
+Planned:
+- Container/Kubernetes security basics
+
+---
+
 ## ⚙️ Security Tools
 
 Sudah ada:
@@ -116,8 +151,7 @@ Planned:
 - Linux
 - Networking
 - Python
-- Active Directory
-- Reverse Engineering
+- Reverse Engineering (mendalam)
 - Digital Forensics
 
 ---
@@ -129,9 +163,9 @@ Planned:
 - [x] Network Scanning & Enumeration
 - [x] CTF Pertama (self-hosted mini CTF)
 - [x] Malware Analysis Dasar
-- [ ] Reverse Engineering
-- [ ] Active Directory
-- [ ] Cloud Security
+- [x] Reverse Engineering Dasar (crackme + writeup)
+- [x] Active Directory (konsep & notes — belum praktik di lab langsung)
+- [x] Cloud Security Dasar (S3 misconfig checklist + IAM policy auditor)
 - [ ] Sertifikasi — lihat rencana lengkap di [`notes/certification-roadmap.md`](./notes/certification-roadmap.md) (target: eJPT → PNPT/OSCP)
 
 > Lihat [`CHANGELOG.md`](./CHANGELOG.md) untuk histori lengkap perubahan repo ini.
@@ -141,6 +175,7 @@ Planned:
 ## 🛠️ Technologies
 
 - Python
+- C (untuk crackme reverse engineering)
 - Flask
 - Bash
 

@@ -9,8 +9,26 @@ Format berdasarkan [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - File Upload & Command Injection demo (`web-security/`)
 - YARA Rules dasar (`malware-analysis/`)
 - Password Generator & standalone Hash Generator (`tools/`)
-- Writeup CTF kategori Reverse Engineering, Cryptography, OSINT, Binary Exploitation, Forensics
-- Notes: Linux, Networking, Python, Active Directory, Reverse Engineering, Digital Forensics
+- Writeup CTF kategori Cryptography, OSINT, Binary Exploitation, Forensics
+- Crackme lanjutan dengan tingkat kesulitan lebih tinggi (`reverse-engineering/`)
+- Notes: Linux, Networking, Python, Digital Forensics
+- Praktik hands-on Active Directory lab (TryHackMe/HackTheBox)
+- Container/Kubernetes security basics (`cloud-security/`)
+
+---
+
+## [0.4.0] — Reverse Engineering, Active Directory, Cloud Security
+
+### Added
+- `reverse-engineering/crackme-01/` — crackme C binary dengan XOR-encoded flag, build script, dan writeup solve lengkap (strings → objdump → decode logic)
+- `active-directory/README.md` — notes konsep serangan AD (enumeration, Kerberoasting, Pass-the-Hash, Golden Ticket, AS-REP Roasting) dan prinsip pertahanan
+- `cloud-security/s3-misconfig-checklist.md` — checklist kerentanan storage bucket
+- `cloud-security/iam_audit.py` — tool audit IAM policy JSON, deteksi wildcard action/resource/principal
+- `cloud-security/policy_example_bad.json` & `policy_example_good.json` — contoh policy buat testing tool audit
+
+### Changed
+- `README.md` — struktur repo, section tiap kategori, dan roadmap diupdate untuk mencerminkan 3 area baru
+- Roadmap: Reverse Engineering, Active Directory, dan Cloud Security dicentang
 
 ---
 
