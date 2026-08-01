@@ -153,15 +153,59 @@ Planned:
 
 ## 🎯 Learning Roadmap
 
-- [x] Dasar Web Security (SQLi, XSS, CSRF)
-- [x] Broken Authentication & Session Management
-- [x] Network Scanning & Enumeration
-- [x] CTF Pertama (self-hosted mini CTF)
-- [x] Malware Analysis Dasar
-- [x] Reverse Engineering Dasar (crackme + writeup)
-- [x] Active Directory (konsep & notes — belum praktik di lab langsung)
-- [x] Cloud Security Dasar (S3 misconfig checklist + IAM policy auditor)
-- [ ] Sertifikasi — lihat rencana lengkap di [`notes/certification-roadmap.md`](./notes/certification-roadmap.md) (target: eJPT → PNPT/OSCP)
+### Web Security
+- [x] SQL Injection
+- [x] Cross-Site Scripting (XSS)
+- [x] Cross-Site Request Forgery (CSRF)
+- [x] Broken Authentication & Session Management (JWT)
+- [x] File Upload Vulnerabilities
+- [x] Command Injection
+
+### Network Security
+- [x] Port Scanning
+- [x] Service Enumeration & Banner Grabbing
+- [x] Subdomain Enumeration
+- [x] DNS Reconnaissance
+- [x] Packet Sniffing
+- [ ] Network Reconnaissance writeup/checklist
+
+### Malware Analysis
+- [x] Static Analysis (hashing, entropy, string extraction)
+- [x] YARA Rules
+
+### Reverse Engineering
+- [x] Crackme dasar (XOR-encoded flag + writeup)
+- [ ] Crackme tingkat lanjut
+
+### Security Tools
+- [x] Password Cracker (edukasi)
+- [x] Web Vulnerability Scanner
+- [x] Password Generator
+- [x] Hash Generator & Verifier
+
+### Active Directory
+- [x] Konsep & notes (enumeration, Kerberoasting, Pass-the-Hash, Golden Ticket)
+- [ ] Praktik hands-on di lab (TryHackMe/HackTheBox)
+
+### Cloud Security
+- [x] S3/Storage Misconfiguration Checklist
+- [x] IAM Policy Auditor
+- [ ] Container/Kubernetes Security Basics
+
+### CTF
+- [x] CTF pertama (self-hosted: SQLi login bypass)
+- [ ] CTF di platform publik (TryHackMe/HackTheBox) — kategori Cryptography, OSINT, Binary Exploitation, Forensics
+
+### Learning Notes
+- [x] OWASP Top 10
+- [ ] Linux Fundamentals
+- [ ] Networking Fundamentals
+- [ ] Python for Security
+- [ ] Digital Forensics
+
+### Sertifikasi
+- [ ] eJPT → lihat rencana lengkap di [`notes/certification-roadmap.md`](./notes/certification-roadmap.md)
+- [ ] PNPT / OSCP (jangka panjang)
 
 > Lihat [`CHANGELOG.md`](./CHANGELOG.md) untuk histori lengkap perubahan repo ini.
 
