@@ -50,8 +50,6 @@ Sudah ada (vulnerable + fixed version + penjelasan exploit):
 - Cross-Site Scripting (XSS)
 - Cross-Site Request Forgery (CSRF)
 - Broken Authentication (JWT vulnerabilities)
-
-Planned:
 - File Upload Vulnerabilities
 - Command Injection
 
@@ -63,10 +61,10 @@ Sudah ada:
 - Port Scanner (multi-threaded, banner grabbing)
 - Service Enumeration (banner grab + version-based vuln notes)
 - Subdomain Enumeration
+- DNS Lookup / Reconnaissance (A, MX, NS, TXT, CNAME, SOA record)
 - Packet Sniffer
 
 Planned:
-- Dedicated DNS Lookup tool
 - Network Reconnaissance writeup/checklist
 
 ---
@@ -76,9 +74,7 @@ Planned:
 Sudah ada:
 - Static Analysis tool (hashing, string extraction, entropy analysis)
 - Notes konsep static vs dynamic analysis
-
-Planned:
-- YARA Rules
+- YARA Rules dasar (pattern matching, tested terhadap sample file)
 
 ---
 
@@ -119,10 +115,8 @@ Planned:
 Sudah ada:
 - Educational Hash Cracker (dictionary attack + hash speed/salt demo)
 - Simple Web Vulnerability Scanner (security headers, cookie flags, info leakage)
-
-Planned:
-- Password Generator
-- Standalone Hash Generator
+- Password Generator (cryptographically secure, entropy estimation)
+- Hash Generator & Verifier (text/file, multi-algoritma, checksum verification)
 
 ---
 
@@ -131,8 +125,9 @@ Planned:
 Sudah ada:
 - Web Exploitation (self-hosted mini CTF: SQLi login bypass)
 
+> Catatan: writeup Reverse Engineering ada di folder terpisah [`reverse-engineering/crackme-01/`](../reverse-engineering/crackme-01) karena formatnya crackme, bukan CTF platform biasa.
+
 Planned (kategori yang belum ada writeup-nya):
-- Reverse Engineering
 - Cryptography
 - OSINT
 - Binary Exploitation

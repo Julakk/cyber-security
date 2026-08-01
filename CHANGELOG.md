@@ -6,14 +6,27 @@ Format berdasarkan [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Planned
-- File Upload & Command Injection demo (`web-security/`)
-- YARA Rules dasar (`malware-analysis/`)
-- Password Generator & standalone Hash Generator (`tools/`)
-- Writeup CTF kategori Cryptography, OSINT, Binary Exploitation, Forensics
+- Network Reconnaissance writeup/checklist (`network-security/`)
 - Crackme lanjutan dengan tingkat kesulitan lebih tinggi (`reverse-engineering/`)
+- Container/Kubernetes security basics (`cloud-security/`)
+- Writeup CTF kategori Cryptography, OSINT, Binary Exploitation, Forensics
 - Notes: Linux, Networking, Python, Digital Forensics
 - Praktik hands-on Active Directory lab (TryHackMe/HackTheBox)
-- Container/Kubernetes security basics (`cloud-security/`)
+
+---
+
+## [0.5.0] — Complete Planned Items
+
+### Added
+- `web-security/file-upload/` — vulnerable + fixed upload demo (whitelist ekstensi, magic bytes check, UUID rename), EXPLOIT.md
+- `web-security/command-injection/` — vulnerable + fixed ping tool demo (shell=False, input validation), EXPLOIT.md
+- `malware-analysis/yara-rules/` — 5 rule contoh, tested terhadap sample file (positive/negative case + ELF binary), `run_yara.py`
+- `tools/password-generator/` — secure password generator (`secrets` module) + entropy estimation
+- `tools/hash-generator/` — hash generator & checksum verifier, multi-algoritma
+- `network-security/dns-lookup/` — DNS reconnaissance tool (A, MX, NS, TXT, CNAME, SOA)
+
+### Changed
+- `README.md` — semua item "Planned" di section web-security, network-security, malware-analysis, dan tools dipindah ke "Sudah ada"
 
 ---
 
