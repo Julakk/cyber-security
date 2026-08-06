@@ -6,7 +6,8 @@ Pengenalan dasar reverse engineering: menganalisis binary/program untuk memahami
 
 ## 📂 Isi
 
-- [`crackme-01/`](./crackme-01) — Crackme pertama (C binary sederhana), lengkap dengan source code, cara analisis pakai `strings`/`objdump`, dan writeup solve-nya
+- [`crackme-01/`](./crackme-01) — Crackme pertama (C binary sederhana, XOR encoding), lengkap dengan source code, cara analisis pakai `strings`/`objdump`, dan writeup solve-nya
+- [`crackme-02/`](./crackme-02) — Crackme lanjutan (math transformation + decoy string), tingkat kesulitan medium
 
 ## 🧰 Tools yang Dipakai
 

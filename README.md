@@ -63,6 +63,7 @@ Sudah ada:
 - Subdomain Enumeration
 - DNS Lookup / Reconnaissance (A, MX, NS, TXT, CNAME, SOA record)
 - Packet Sniffer
+- Recon Checklist (alur kerja lengkap dari passive sampai active recon)
 
 Planned:
 - Network Reconnaissance writeup/checklist
@@ -82,10 +83,8 @@ Sudah ada:
 
 Sudah ada:
 - Crackme #01 (C binary, XOR-encoded flag) lengkap dengan writeup solve step-by-step
+- Crackme #02 (math transformation + decoy string, medium difficulty) lengkap dengan writeup
 - Pengenalan tools: `strings`, `objdump`, `gdb`, `file`
-
-Planned:
-- Crackme lanjutan dengan tingkat kesulitan lebih tinggi
 
 ---
 
@@ -104,9 +103,7 @@ Sudah ada:
 Sudah ada:
 - S3/cloud storage misconfiguration checklist
 - IAM policy auditor (deteksi wildcard action/resource/principal yang overly permissive)
-
-Planned:
-- Container/Kubernetes security basics
+- Container/Kubernetes security basics (checklist + contoh konfigurasi aman)
 
 ---
 
@@ -139,15 +136,12 @@ Planned (kategori yang belum ada writeup-nya):
 
 Sudah ada:
 - OWASP Top 10
+- Linux Fundamentals
+- Networking Fundamentals
+- Python for Security
+- Digital Forensics
 - Learning Log
 - Certification Roadmap
-
-Planned:
-- Linux
-- Networking
-- Python
-- Reverse Engineering (mendalam)
-- Digital Forensics
 
 ---
 
@@ -167,7 +161,7 @@ Planned:
 - [x] Subdomain Enumeration
 - [x] DNS Reconnaissance
 - [x] Packet Sniffing
-- [ ] Network Reconnaissance writeup/checklist
+- [x] Network Reconnaissance writeup/checklist
 
 ### Malware Analysis
 - [x] Static Analysis (hashing, entropy, string extraction)
@@ -175,7 +169,7 @@ Planned:
 
 ### Reverse Engineering
 - [x] Crackme dasar (XOR-encoded flag + writeup)
-- [ ] Crackme tingkat lanjut
+- [x] Crackme tingkat lanjut
 
 ### Security Tools
 - [x] Password Cracker (edukasi)
@@ -190,7 +184,7 @@ Planned:
 ### Cloud Security
 - [x] S3/Storage Misconfiguration Checklist
 - [x] IAM Policy Auditor
-- [ ] Container/Kubernetes Security Basics
+- [x] Container/Kubernetes Security Basics
 
 ### CTF
 - [x] CTF pertama (self-hosted: SQLi login bypass)
@@ -198,10 +192,10 @@ Planned:
 
 ### Learning Notes
 - [x] OWASP Top 10
-- [ ] Linux Fundamentals
-- [ ] Networking Fundamentals
-- [ ] Python for Security
-- [ ] Digital Forensics
+- [x] Linux Fundamentals
+- [x] Networking Fundamentals
+- [x] Python for Security
+- [x] Digital Forensics
 
 ### Sertifikasi
 - [ ] eJPT → lihat rencana lengkap di [`notes/certification-roadmap.md`](./notes/certification-roadmap.md)

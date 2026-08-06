@@ -6,12 +6,24 @@ Format berdasarkan [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Planned
-- Network Reconnaissance writeup/checklist (`network-security/`)
-- Crackme lanjutan dengan tingkat kesulitan lebih tinggi (`reverse-engineering/`)
-- Container/Kubernetes security basics (`cloud-security/`)
-- Writeup CTF kategori Cryptography, OSINT, Binary Exploitation, Forensics
-- Notes: Linux, Networking, Python, Digital Forensics
-- Praktik hands-on Active Directory lab (TryHackMe/HackTheBox)
+- Writeup CTF kategori Cryptography, OSINT, Binary Exploitation, Forensics (butuh platform publik seperti TryHackMe/HackTheBox)
+- Praktik hands-on Active Directory lab
+
+---
+
+## [0.6.0] — Network Recon Checklist, Crackme #02, Kubernetes Security, Full Learning Notes
+
+### Added
+- `network-security/RECON-CHECKLIST.md` — alur kerja recon lengkap (passive → active), menghubungkan semua tools network-security yang sudah ada
+- `reverse-engineering/crackme-02/` — crackme medium difficulty (math transformation + decoy string), lengkap dengan writeup yang menjelaskan compiler optimization (`add+add` untuk `*3`) dan cara reverse transformasi lewat brute-force
+- `cloud-security/kubernetes-basics/README.md` — checklist Docker & Kubernetes security, contoh Dockerfile dan Pod Security Context yang aman vs tidak
+- `notes/linux-fundamentals.md` — command & konsep Linux relevan untuk pentest/CTF (SUID, privesc, log analysis)
+- `notes/networking-fundamentals.md` — OSI model, TCP/UDP, subnetting, dikaitkan ke tools network-security yang sudah ada
+- `notes/python-for-security.md` — rangkuman library & pattern Python yang dipakai di seluruh tools repo ini, termasuk anti-pattern yang harus dihindari
+- `notes/digital-forensics.md` — prinsip dasar forensics, chain of custody, kategori forensics, dikaitkan ke tools hashing & static analysis yang sudah ada
+
+### Changed
+- `README.md` — roadmap per-kategori diupdate; sisa item yang belum selesai sekarang murni yang butuh aksi langsung dari user (praktik lab, CTF platform publik, sertifikasi)
 
 ---
 
