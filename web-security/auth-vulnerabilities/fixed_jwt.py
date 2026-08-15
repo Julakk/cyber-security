@@ -19,7 +19,7 @@ def login():
 
     # (Di real app: cek password pakai bcrypt.checkpw, bukan plaintext compare)
     if username == "admin" and password == "admin123":
-        now = datetime.datetime.utcnow()
+        now = datetime.datetime.now(datetime.timezone.utc)
         payload = {
             "username": username,
             "role": "admin",

@@ -120,7 +120,7 @@ Sudah ada:
 Sudah ada:
 - Web Exploitation (self-hosted mini CTF: SQLi login bypass)
 
-> Catatan: writeup Reverse Engineering ada di folder terpisah [`reverse-engineering/crackme-01/`](../reverse-engineering/crackme-01) karena formatnya crackme, bukan CTF platform biasa.
+> Catatan: writeup Reverse Engineering ada di folder terpisah [`reverse-engineering/crackme-01/`](./reverse-engineering/crackme-01) karena formatnya crackme, bukan CTF platform biasa.
 
 Planned (kategori yang belum ada writeup-nya):
 - Cryptography
