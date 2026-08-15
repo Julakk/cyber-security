@@ -11,6 +11,19 @@ Format berdasarkan [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.7.0] — DDoS Mitigation
+
+### Added
+- `network-security/ddos-mitigation/README.md` — strategi mitigasi 4 lapis (network-level, application-level, infrastructure hardening, incident response), termasuk jenis-jenis serangan DDoS dan pertimbangan khusus untuk game server SA-MP/Open.MP (query port flood, fake player connect flood)
+- `network-security/ddos-mitigation/iptables-rate-limit.sh` — contoh rule rate limiting firewall (SSH, ICMP, SYN flood, port game, port query)
+- `network-security/ddos-mitigation/connection_rate_analyzer.py` — tool analisis log koneksi untuk deteksi pola flood (sliding window per-IP), tested berhasil mendeteksi simulated attacker dari sample log
+- `network-security/ddos-mitigation/sample_connection_log.csv` — contoh log traffic normal + simulasi flood untuk testing tool di atas
+
+### Changed
+- `README.md` — DDoS Mitigation ditambahkan ke section Network Security dan roadmap
+
+---
+
 ## [0.6.0] — Network Recon Checklist, Crackme #02, Kubernetes Security, Full Learning Notes
 
 ### Added

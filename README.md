@@ -64,9 +64,7 @@ Sudah ada:
 - DNS Lookup / Reconnaissance (A, MX, NS, TXT, CNAME, SOA record)
 - Packet Sniffer
 - Recon Checklist (alur kerja lengkap dari passive sampai active recon)
-
-Planned:
-- Network Reconnaissance writeup/checklist
+- DDoS Mitigation (strategi 4 lapis + rate limiting rules + tool deteksi pola flood, termasuk pertimbangan khusus game server SA-MP/Open.MP)
 
 ---
 
@@ -162,6 +160,7 @@ Sudah ada:
 - [x] DNS Reconnaissance
 - [x] Packet Sniffing
 - [x] Network Reconnaissance writeup/checklist
+- [x] DDoS Mitigation
 
 ### Malware Analysis
 - [x] Static Analysis (hashing, entropy, string extraction)
